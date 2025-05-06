@@ -114,7 +114,7 @@ int main(){
     printf("NÚMERO DE PONTOS TURÍSTICOS: %d \n", pontosTuristicos);
     printf("DENSIDADE POPULACIONAL: %.2f HAB/KM2\n", densidadePop);
     printf("PIB PER CAPITA: %.2f REAIS\n", pibPerCapita);
-    printf("SUPER PODER: %f\n", superPoder);
+    printf("SUPER PODER: %.2f\n", superPoder);
 
     printf("\n====== CARTA 2 ======\n");
     printf("ESTADO: %c \n", estado2);
@@ -126,16 +126,16 @@ int main(){
     printf("NÚMERO DE PONTOS TURÍSTICOS: %d \n", pontosTuristicos2);
     printf("DENSIDADE POPULACIONAL: %.2f HAB/KM2\n", densidadePop2);
     printf("PIB PER CAPITA: %.2f REAIS\n", pibPerCapita2);
-    printf("SUPER PODER: %f\n", superPoder2);
+    printf("SUPER PODER: %.2f\n", superPoder2);
 
     printf("\n====== COMPARAÇÃO ======\n");
-    printf("POPULAÇÃO: CARTA (%d) VENCEU (%d)\n", compPopulacao ? 1 : 2, compPopulacao);
-    printf("ÁREA: CARTA (%d) VENCEU (%d)\n", compArea ? 1 : 2, compArea);
-    printf("PIB: CARTA (%d) VENCEU (%d)\n", compPIB ? 1 : 2, compPIB);
-    printf("NÚMERO DE PONTOS TURÍSTICOS: CARTA (%d) VENCEU (%d)\n", compPontosTuristicos ? 1 : 2, compPontosTuristicos);
-    printf("DENSIDADE POPULACIONAL: CARTA (%d) VENCEU (%d)\n", compDensidadePopulacional ? 1 : 2, compDensidadePopulacional);
-    printf("PIB PER CAPITA: CARTA (%d) VENCEU (%d)\n", compPIBPerCapita ? 1 : 2, compPIBPerCapita);
-    printf("SUPER PODER: CARTA (%d) VENCEU (%d)\n", compSuperPoder ? 1 : 2, compSuperPoder);
+    printf("POPULAÇÃO: CARTA %d VENCEU (%d)\n", compPopulacao ? 1 : 2, compPopulacao);
+    printf("ÁREA: CARTA %d VENCEU (%d)\n", compArea ? 1 : 2, compArea);
+    printf("PIB: CARTA %d VENCEU (%d)\n", compPIB ? 1 : 2, compPIB);
+    printf("NÚMERO DE PONTOS TURÍSTICOS: CARTA %d VENCEU (%d)\n", compPontosTuristicos ? 1 : 2, compPontosTuristicos);
+    printf("DENSIDADE POPULACIONAL: CARTA %d VENCEU (%d)\n", compDensidadePopulacional ? 1 : 2, compDensidadePopulacional);
+    printf("PIB PER CAPITA: CARTA %d VENCEU (%d)\n", compPIBPerCapita ? 1 : 2, compPIBPerCapita);
+    printf("SUPER PODER: CARTA %d VENCEU (%d)\n", compSuperPoder ? 1 : 2, compSuperPoder);
 
     return 0;
 
